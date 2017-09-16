@@ -12697,7 +12697,7 @@ var App = function App() {
     null,
     _react2.default.createElement(
       'div',
-      { 'class': 'container is-fluid' },
+      { className: 'container' },
       _react2.default.createElement(
         'div',
         { id: 'grid', className: 'columns' },
@@ -12712,13 +12712,13 @@ var App = function App() {
         { id: 'grid', className: 'columns' },
         _react2.default.createElement(
           'div',
-          { className: 'column' },
-          'First column'
+          { id: 'grid', className: 'columns' },
+          'Tiles'
         ),
         _react2.default.createElement(
           'div',
           { className: 'column' },
-          'Second column'
+          'Description'
         ),
         _react2.default.createElement(
           'div',

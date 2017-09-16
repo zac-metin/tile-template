@@ -4,26 +4,31 @@ import Greetings from './Greetings'
 
 const App = () => (
   <Router>
-      <div class="container is-fluid">
-        <div id="grid" className="columns">
-          <div className="column">
-            Header
-          </div>
-          </div>
-        <div id="grid" className="columns">
-            <div className="column">
-              First column
-            </div>
-          <div className="column">
-            Second column
-          </div>
-          <div className="column">
-            Third column
-          </div>
-          <div className="column">
-            Fourth column
-          </div>
+    <div className="container">
+
+      <div id="grid" className="columns">
+
+        <div className="column">
+          Header
         </div>
+
+      </div>
+
+      <div id="grid" className="columns">
+
+        <div id="grid" className="columns">
+          Tiles
+        </div>
+        <div className="column">
+          Description
+        </div>
+        <div className="column">
+          Third column
+        </div>
+        <div className="column">
+          Fourth column
+        </div>
+      </div>
       <Route exact path="/" component={Greetings}/>
     </div>
   </Router>
