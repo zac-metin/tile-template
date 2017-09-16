@@ -4,9 +4,27 @@ import Greetings from './Greetings'
 
 const App = () => (
   <Router>
-    <div className='app-container'>
-      <h1>Hello World</h1>
-      <Route exact path="/" component={Greetings} />
+      <div class="container is-fluid">
+        <div id="grid" className="columns">
+          <div className="column">
+            Header
+          </div>
+          </div>
+        <div id="grid" className="columns">
+            <div className="column">
+              First column
+            </div>
+          <div className="column">
+            Second column
+          </div>
+          <div className="column">
+            Third column
+          </div>
+          <div className="column">
+            Fourth column
+          </div>
+        </div>
+      <Route exact path="/" component={Greetings}/>
     </div>
   </Router>
 )

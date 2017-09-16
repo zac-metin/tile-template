@@ -8,10 +8,7 @@ const renderGreeting = (greeting, key) => (
 )
 
 const Greetings = ({greetings, dispatch}) => (
-  <div>
-    <button onClick={() => dispatch(getGreetings())}>Show Greetings</button>
-    {greetings.map(renderGreeting)}
-  </div>
+<div></div>
 )
 
 const mapStateToProps = (state) => {
