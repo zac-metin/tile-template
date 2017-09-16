@@ -12700,36 +12700,53 @@ var App = function App() {
       { className: 'container' },
       _react2.default.createElement(
         'div',
-        { id: 'grid', className: 'columns' },
-        _react2.default.createElement(
-          'div',
-          { className: 'column' },
-          'Header'
-        )
+        { className: 'tile' },
+        'Tiles'
       ),
       _react2.default.createElement(
         'div',
-        { id: 'grid', className: 'columns' },
-        _react2.default.createElement(
-          'div',
-          { id: 'grid', className: 'columns' },
-          'Tiles'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'column' },
-          'Description'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'column' },
-          'Third column'
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'column' },
-          'Fourth column'
-        )
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile' },
+        'Tiles'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'description' },
+        'Description'
       ),
       _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Greetings2.default })
     )

@@ -6,29 +6,36 @@ const App = () => (
   <Router>
     <div className="container">
 
-      <div id="grid" className="columns">
-
-        <div className="column">
-          Header
-        </div>
-
-      </div>
-
-      <div id="grid" className="columns">
-
-        <div id="grid" className="columns">
+        <div className="tile">
           Tiles
         </div>
-        <div className="column">
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="tile">
+          Tiles
+        </div>
+        <div className="description">
           Description
         </div>
-        <div className="column">
-          Third column
-        </div>
-        <div className="column">
-          Fourth column
-        </div>
-      </div>
       <Route exact path="/" component={Greetings}/>
     </div>
   </Router>

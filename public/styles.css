@@ -7,6 +7,10 @@ button {
 }
 .container {
   display: grid;
-  grid-template-columns: ;
-  grid-template-rows:
+  grid-template-columns: auto auto auto 45%;
+  grid-template-rows: 15% auto auto auto 7%;
+}
+.tile {
+  grid-column-end: span 1;
+  grid-row-end: span 1;
 }
