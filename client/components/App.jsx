@@ -6,6 +6,9 @@ const App = () => (
   <Router>
     <div className="container">
 
+        <div className="banner">
+          Banner
+        </div>
         <div className="tile">
           Tiles
         </div>

@@ -2,6 +2,10 @@ body {
   background-color: "blue";
 }
 
+body, html, #app, .container {
+  height: 100%;
+}
+
 button {
   background-color: "red";
 }
@@ -10,7 +14,17 @@ button {
   grid-template-columns: auto auto auto 45%;
   grid-template-rows: 15% auto auto auto 7%;
 }
+.banner {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 1;
+  background-color: #222222;
+
+}
 .tile {
   grid-column-end: span 1;
   grid-row-end: span 1;
+}
+.description {
+  grid-column: 4/ span 1;
+  grid-row: 2 / span 4;
 }

@@ -12700,6 +12700,11 @@ var App = function App() {
       { className: 'container' },
       _react2.default.createElement(
         'div',
+        { className: 'banner' },
+        'Banner'
+      ),
+      _react2.default.createElement(
+        'div',
         { className: 'tile' },
         'Tiles'
       ),
