@@ -5,36 +5,26 @@ import Greetings from './Greetings'
 const App = () => (
   <Router>
     <div className="container">
-
         <div className="banner">
           Banner
         </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
-        </div>
-        <div className="tile">
-          Tiles
+        <div className="tiles">
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
+          <div className="tile">Tile</div>
         </div>
         <div className="description">
           Description
