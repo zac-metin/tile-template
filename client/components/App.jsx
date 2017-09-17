@@ -8,7 +8,7 @@ const App = () => (
         <div className="banner">
           Banner
         </div>
-        <div className="tiles mCustomScrollbar">
+        <div className="tiles">
           <div className="tile">Tile</div>
           <div className="tile">Tile</div>
           <div className="tile">Tile</div>

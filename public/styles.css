@@ -27,14 +27,16 @@ button {
   grid-row: 2/span 1;
   background-color: #FF0000;
   display: grid;
-  grid-template-columns: 23% 23% 23% 23%;
+  grid-template-columns: 23.75% 23.75% 23.75% 23.75%;
   grid-gap: 1%;
   overflow-y: scroll;
   overflow-x: none;
   width: 60vw;
+  padding: 1%;
 }
-.tilescroll {
-  overflow-y: scroll;
+::-webkit-scrollbar {
+width: 0px;
+height: 10px;
 }
 .tile {
   grid-column: span 1;
