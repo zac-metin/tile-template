@@ -12705,7 +12705,7 @@ var App = function App() {
       ),
       _react2.default.createElement(
         'div',
-        { className: 'tiles' },
+        { className: 'tiles mCustomScrollbar' },
         _react2.default.createElement(
           'div',
           { className: 'tile' },

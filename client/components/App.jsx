@@ -8,7 +8,7 @@ const App = () => (
         <div className="banner">
           Banner
         </div>
-        <div className="tiles">
+        <div className="tiles mCustomScrollbar">
           <div className="tile">Tile</div>
           <div className="tile">Tile</div>
           <div className="tile">Tile</div>
@@ -25,7 +25,7 @@ const App = () => (
           <div className="tile">Tile</div>
           <div className="tile">Tile</div>
           <div className="tile">Tile</div>
-        </div>
+          </div>
         <div className="description">
           Description
         </div>
