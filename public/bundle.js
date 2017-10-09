@@ -12701,7 +12701,24 @@ var App = function App() {
       _react2.default.createElement(
         'div',
         { className: 'banner' },
-        'Banner'
+        _react2.default.createElement(
+          'div',
+          { className: 'flex-container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'logo' },
+            'LOGO'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'menu' },
+            _react2.default.createElement(
+              'p',
+              { className: 'menutext' },
+              'MENU OPTION MENU OPTION MENU OPTION MENU OPTION'
+            )
+          )
+        )
       ),
       _react2.default.createElement(
         'div',

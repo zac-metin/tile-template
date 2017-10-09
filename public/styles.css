@@ -41,11 +41,24 @@ height: 10px;
 .tile {
   grid-column: span 1;
   background-color: #EE2929;
-  height: 30vh;
+  height: 24vh;
   border-radius: 8px;
 }
 .description {
   grid-column: 2/ span 1;
   grid-row: 2 / span 1;
   background-color: #FFDEDE;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 60vw;
+}
+.menu {
+  width: 40vw;
+}
+.menutext {
+  margin-top: 13%;
 }
