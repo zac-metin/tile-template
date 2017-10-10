@@ -47,7 +47,7 @@ height: 10px;
 .description {
   grid-column: 2/ span 1;
   grid-row: 2 / span 1;
-  background-color: #FFDEDE;
+  background-color: #555555;
 }
 .flex-container {
   display: flex;
@@ -55,10 +55,25 @@ height: 10px;
 }
 .logo {
   width: 60vw;
+  padding: 5%;
 }
 .menu {
   width: 40vw;
 }
 .menutext {
-  margin-top: 13%;
+  margin-top: 12vh;
+  margin-bottom: 2vh;
+  margin-left: 5vh;
+}
+.contenttitle, .content {
+  background-color: rgba(155,155,155,0.5);
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 3vh;
+}
+.contenttitle {
+  height: 7vh;
+}
+.content {
+  min-height: 70vh;
 }

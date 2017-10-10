@@ -36,7 +36,12 @@ const App = () => (
           <div className="tile">Tile</div>
           </div>
         <div className="description">
-          Description
+          <div className="contenttitle">
+            Title
+          </div>
+          <div className="content">
+            Content
+          </div>
         </div>
       <Route exact path="/" component={Greetings}/>
     </div>

@@ -12807,7 +12807,16 @@ var App = function App() {
       _react2.default.createElement(
         'div',
         { className: 'description' },
-        'Description'
+        _react2.default.createElement(
+          'div',
+          { className: 'contenttitle' },
+          'Title'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'content' },
+          'Content'
+        )
       ),
       _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Greetings2.default })
     )
