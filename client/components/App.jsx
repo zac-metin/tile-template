@@ -8,11 +8,15 @@ const App = () => (
         <div className="banner">
           <div className="flex-container">
             <div className="logo">
-              LOGO
+              Dev Academy - Company Database
             </div>
             <div className="menu">
               <p className="menutext">
-                MENU OPTION MENU OPTION MENU OPTION MENU OPTION
+                <a href="#">NATIONWIDE</a>
+                <a href="#">WELLINGTON</a>
+                <a href="#">AUCKLAND</a>
+                <a href="#">OTHER</a>
+                <a href="#">REMOTE</a>
               </p>
             </div>
           </div>

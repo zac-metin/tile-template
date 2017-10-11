@@ -12707,7 +12707,7 @@ var App = function App() {
           _react2.default.createElement(
             'div',
             { className: 'logo' },
-            'LOGO'
+            'Dev Academy - Company Database'
           ),
           _react2.default.createElement(
             'div',
@@ -12715,7 +12715,31 @@ var App = function App() {
             _react2.default.createElement(
               'p',
               { className: 'menutext' },
-              'MENU OPTION MENU OPTION MENU OPTION MENU OPTION'
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'NATIONWIDE'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'WELLINGTON'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'AUCKLAND'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'OTHER'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: '#' },
+                'REMOTE'
+              )
             )
           )
         )

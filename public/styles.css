@@ -5,6 +5,7 @@ body {
 body, html, #app, .container {
   height: 100%;
   margin: 0;
+  font-family: "Roboto";
 }
 
 button {
@@ -56,6 +57,8 @@ height: 10px;
 .logo {
   width: 60vw;
   padding: 5%;
+  font-family: "Lobster";
+  font-size: 33px;
 }
 .menu {
   width: 40vw;
